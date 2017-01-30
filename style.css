@@ -1,0 +1,158 @@
+body {
+    background-color: #333;
+    font-family: "Segoe UI", Segoe, Tahoma, Arial, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.clearfix:before,
+.clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+.main {
+    min-height: 700px;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    position: relative;
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.header {
+    font-size: 14px;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.left-side {
+    color: #a4a4a4;
+    float: left;
+}
+
+.left-side a {
+    color: #a4a4a4;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.left-side mi {
+    padding: 15px;
+}
+
+.right-side {
+    color: #a4a4a4;
+    float: right;
+    margin-top: -10px;
+}
+
+.right-side a {
+    color: #a4a4a4;
+    text-decoration: none;
+    padding: 15px;
+    vertical-align: 10px;
+}
+
+.right-side #ac {
+    height: 37px;
+    margin-right: 10px;
+    background-image: url("s.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    width: 37px;
+}
+
+.right-side #se {
+    height: 37px;
+    margin-right: 10px;
+    background-image: url("win10accounticon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    width: 37px;
+}
+
+.search-box {
+    margin: 80px 0 0 100px;
+}
+
+.search-box img {
+    height: 50px;
+    margin-right: 25px;
+}
+
+.search-box input {
+    height: 40px;
+    width: 570px;
+    vertical-align: top;
+}
+
+.search-box button {
+    background-image: url("search-2-xxl.png");
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    background-color: #065606;
+    vertical-align: 9px;
+    border: none;
+    margin: -4px;
+    margin-top: 1px;
+}
+
+.slider {
+    background-color: rgba(128, 128, 128, 0.74);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.is img {
+    height: 75px;
+}
+
+.slider-img {
+    float: left;
+    margin: 0 9px 0 9px;
+}
+
+.slider-img span {
+    display: block;
+    text-align: left;
+    padding-left: 12px;
+    color: #eee;
+}
+
+.arrow img {
+    margin-top: 30px;
+    height: 30px;
+}
+
+.arrow button {
+    height: 33px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    margin-top: 37px;
+}
+
+.lefta {
+    background-image: url("arrow2.png");
+}
+
+.righta {
+    background-image: url("arrow.png");
+}
